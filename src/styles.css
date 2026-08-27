@@ -721,13 +721,18 @@ dd {
 }
 
 .empty-state {
+  align-content: center;
+  border-top: 1px solid #e3ebe7;
   display: grid;
-  justify-items: start;
+  justify-items: center;
+  min-height: 360px;
   padding: 52px 24px;
+  text-align: center;
 }
 
 .empty-state p {
   color: #5c7067;
+  max-width: 44ch;
 }
 
 .skeleton-row td {
